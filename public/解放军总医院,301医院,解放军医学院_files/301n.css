@@ -1,0 +1,221 @@
+body{
+  margin:0px;
+  font-size:12px;
+  font-family:"microsoft yahei","黑体","Arial","宋体";
+}
+/*html {-webkit-filter: grayscale(100%);filter:progid:DXImageTransform.Microsoft.BasicImage(graysale=1);}*/
+* html,* html body{background-image:url(about:blank);background-attachment:fixed}
+.clear{
+  clear:both;
+  visibility:hidden;
+  height:0;
+  overflow:hidden;
+}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+form{
+  margin:0px;
+  display:inline;
+}
+.wrap{
+  table-layout:fixed;
+  word-break:break-all;
+  overflow:hidden;
+  text-align:justify;
+  text-justify:inter-ideograph;
+}
+img,a img{
+  border:0;
+  margin:0;
+  padding:0;
+}
+.left{
+  float:left;
+}
+.right{
+  float:right;
+}
+h4{
+	/*   陈硕20151104修改H4效果。 */ 
+  font-size:14px;
+  text-indent: 24px;
+  line-height: 34px;
+  list-style-type:none;
+  margin:0;
+  padding:0;
+}
+h1,h12,h3,h5,h6,ul,ol,li,dl,dt,dd,p{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+}
+
+
+	/*   陈硕201851128修改列表效果。 */ 
+.liebiao ul{ padding:0 0 0 35px;}
+.liebiao ul  li{background:url(../images/dot1.jpg) no-repeat 0 center; padding:0 0 0 12px;}
+
+label{
+  vertical-align:middle;
+  font-family:"tahoma";
+}
+.zoom{
+  zoom:1;
+}
+input,select,button{
+  vertical-align:middle;
+}
+.en{
+  font-family:"arial";
+}
+.txtleft{
+  text-align:left;
+}
+.txtright{
+  text-align:right;
+}
+.txtcenter{
+  text-align:center;
+}
+.b{
+  font-weight:bold;
+}
+h1,h2,h3{
+  margin:0;
+  padding:0;
+  font-weight:normal;
+  font-size:12px;
+}
+body,a{
+  color:#333;
+}
+a{
+  text-decoration:none;
+}
+a:hover{
+  color:#cc0000;
+  text-decoration:underline;
+}
+.k10{
+  height:10px;
+  width:100%;
+  overflow:hidden;
+}
+.k15{
+  height:15px;
+  width:100%;
+  overflow:hidden;
+}
+.k20{
+  height:20px;
+  width:100%;
+  overflow:hidden;
+}
+
+/* 公共样式_字体 */
+.red,.red a,a.red{
+  color:#c00;
+}
+.blue,.blue a,a.blue{
+  color:#015594;
+}
+.lv,.lv a,a.lv{
+  color:#00723a;
+}
+.bai,.bai a,a.bai{
+  color:#fff;
+}
+.hui,.hui a,a.hui{
+  color:#b0b0b0;
+}
+.huang,.huang a,a.huang{
+  color:#ff6600;
+}
+.yahei{
+  font-family:"microsoft yahei","黑体";
+}
+.f10{
+  font-size:10px;
+}
+.f12{
+  font-size:12px;
+}
+.f14{
+  font-size:14px;
+}
+.f16{
+  font-size:16px;
+}
+
+/******************************************************旧网站样式,医院历史等*********************************/
+.detail, .detail-2 {
+    width: 645px;
+    margin: 10px 10px 10px 10px!important;
+    margin: 10px 0px 10px 10px;
+    padding: 10px;
+    background-color: #F5F8FD ;
+}
+div.detail-2 p {
+   font-size: 9pt;
+   line-height: 20px;
+   text-indent: 24px;
+   color: #686155;
+   margin: 15px 0px;
+}
+div.detail p{
+    font-size: 11pt;
+    line-height: 26px;
+    /*text-indent: 24px; */
+    color: #000;
+    margin: 15px 0px;
+}
+div.detail td {
+   font-size: 9pt;
+   font-weight: normal;
+}
+div.detail p { text-indent: 28px;}
+.section-text{
+    font-size: 11pt;
+    line-height: 26px;
+    text-indent: 24px;
+    color: #000;
+    margin: 15px 0px;
+}
+.ttlc {
+    text-align: left;
+    color: #666666;
+    font-size: 12px;
+    border-bottom: 1px solid  #1B81C1;
+    height: 26px;
+}
+.intro_pic{
+    float:left;
+    width:203px;
+    background-image:url(img/intro_pic_bg.jpg);
+    text-align: center;
+}
+.intro_pic img{
+    margin:20px 20px;
+}
+.intro_pic_text{
+    width:160px;
+    margin:10px 10px 10px 10px;
+    line-height:22px;
+}
+.intro_pic2{
+    float:left;
+    width:138px;
+    height:160px;
+    background:url(img/intro_pic_bg2.jpg) no-repeat top left;
+    margin:5px;
+    text-align: center;
+}
+.time {
+    text-align: center;
+    color: #999999;
+    margin: 8px 0px;
+    display: block;
+    font-size: 9pt;
+}
+.ttl2 {
+	color:#006CDB;
+}
