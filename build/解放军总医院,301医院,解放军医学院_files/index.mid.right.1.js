@@ -1,0 +1,1 @@
+jQuery(".newsTab").slide({ mainCell:".conWrap", targetCell:".more a", effect:"fold"});
